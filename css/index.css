@@ -2,6 +2,25 @@
   width: 100vw;
   margin-top: 60px;
 }
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.navbar .fixed-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navbar .nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navbar .nav-container img {
+  height: 35px;
+}
 .card {
   position: relative;
   display: -ms-flexbox;
@@ -21,7 +40,7 @@
 }
 .card .card-header .btn {
   font-size: 5rem;
-  color: lightgray;
+  color: lightslategray;
   text-decoration: none;
 }
 .card .card-header .btn:hover {
@@ -36,7 +55,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 @media (max-width: 552px) {
   .larkist {
@@ -54,6 +73,9 @@
   color: #38A1F3;
   font-family: 'Abel', sans-serif;
   font-size: 3.5rem;
+}
+.larkist .larkist-copy p {
+  max-width: 500px;
 }
 .larkist hr {
   background-color: #38A1F3;
@@ -75,6 +97,19 @@
     flex-direction: column-reverse;
   }
 }
+.larkist-bottom span {
+  display: flex;
+  flex-direction: column;
+}
+.larkist-bottom span h4 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+@media (max-width: 552px) {
+  .larkist-bottom span h4 {
+    margin-top: 25px;
+  }
+}
 .larkist-bottom img {
   max-width: 550px;
 }
@@ -85,7 +120,7 @@
 }
 .larkist-bottom .larkist-tech {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .larkist-bottom .larkist-tech .tech-copy {
   display: flex;
@@ -96,4 +131,135 @@
   color: #38A1F3;
   font-family: 'Abel', sans-serif;
   font-size: 2rem;
+}
+.larkist-bottom .larkist-tech .tech-copy .badge-pill {
+  font-size: 20px;
+  padding: 7px;
+  margin: 7px;
+}
+.larkist-bottom .larkist-tech .tech-copy .badge-backend {
+  background-color: lightcoral;
+  color: white;
+}
+.product-hero {
+  background-image: url("..//assets/product.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+  height: 700px;
+  text-align: left;
+}
+.product h2 {
+  color: white;
+  font-size: 60px;
+  font-weight: 800;
+  margin-top: 245px;
+}
+.product hr {
+  background-color: white;
+  color: white;
+  border: solid 2x white;
+  height: 5px;
+  max-width: 100px;
+  margin-left: 5px;
+}
+.product p {
+  color: white ;
+  font-size: 25px;
+  font-weight: bold;
+}
+.product-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+@media (max-width: 552px) {
+  .product-info {
+    flex-direction: column;
+  }
+}
+.product-info .product-box {
+  flex-direction: column;
+}
+@media (max-width: 552px) {
+  .product-info .product-box {
+    margin-top: 18px;
+  }
+}
+.product-info .product-box img {
+  height: 50px;
+}
+.product-info .product-box h2 {
+  color: lightslategray;
+  margin-top: 8px;
+}
+.product-badges {
+  display: flex;
+  flex-direction: column;
+}
+.product-badges .badge-primary {
+  margin: 3px 0;
+  color: white;
+  background-color: #48B19B;
+  width: 300px;
+}
+.product-badges .badge-alt {
+  margin: 3px 0;
+  color: #48B19B;
+  border: 1px solid #48B19B;
+  background-color: white;
+  width: 300px;
+}
+.design-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.design-nav a {
+  color: lightslategray;
+  text-decoration: none;
+}
+.design-nav a:hover {
+  color: lightcoral;
+  border-bottom: 2px solid lightcoral;
+  text-decoration: none;
+}
+.figma {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.figma img {
+  max-height: 700px;
+}
+@media (max-width: 552px) {
+  .figma img {
+    max-height: 400px;
+  }
+}
+.figma .figma-copy {
+  flex-direction: column;
+  text-align: left;
+}
+.illustrator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.illustrator .illustrator-copy {
+  flex-direction: column;
+  text-align: left;
 }
