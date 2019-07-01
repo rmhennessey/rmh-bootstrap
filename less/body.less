@@ -314,3 +314,24 @@
         text-align: left;
     }
 }
+
+.photography {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 80px;
+
+        img {
+            max-height: 700px;
+
+            @media @lg-phone {
+                max-height: 400px;
+            }
+        }
+
+        .photo-copy {
+            flex-direction: column;
+            text-align: left;
+        }
+}

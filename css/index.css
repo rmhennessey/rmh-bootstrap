@@ -263,3 +263,22 @@
   flex-direction: column;
   text-align: left;
 }
+.photography {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.photography img {
+  max-height: 700px;
+}
+@media (max-width: 552px) {
+  .photography img {
+    max-height: 400px;
+  }
+}
+.photography .photo-copy {
+  flex-direction: column;
+  text-align: left;
+}
