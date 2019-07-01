@@ -1,0 +1,121 @@
+.container {
+    width: 100vw;
+    margin-top: 60px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: white;
+    background-clip: border-box;
+    border-radius: .25rem;
+    text-align: center;
+
+    .card-header {
+        padding: .75rem 1.25rem;
+        background-color: white;
+
+        .btn {
+            font-size: 5rem;
+            color: lightgray;
+            text-decoration: none;
+
+            &:hover {
+                color: lightcoral;
+                text-decoration: none;
+            }
+            
+        }
+        
+        .btn-link {
+            font-family: 'Overpass', sans-serif;
+            font-size: 5rem;
+            
+        }
+    }
+
+}
+
+
+.larkist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 100px;
+
+        @media @lg-phone {
+            flex-direction: column;
+            margin-bottom: 50px;
+        }
+
+        img {
+            max-height: 500px;
+        }
+
+        .larkist-copy {
+            text-align: left;
+
+                h2 {
+                    color:#38A1F3;
+                    font-family: 'Abel', sans-serif;
+                    font-size: 3.5rem;
+                }
+
+
+        }
+
+        hr {
+            background-color: #38A1F3;
+            color: #38A1F3;
+            border: solid 2x #38A1F3;
+            height: 5px;
+            max-width: 500px;
+            margin-right: 5px;
+        }
+}
+
+.larkist-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+
+        @media @lg-phone {
+            flex-direction: column-reverse;
+        }
+
+        img {
+            max-width: 550px;
+
+            @media @lg-phone {
+                max-width: 450px;
+            }
+        }
+
+        .larkist-tech {
+
+            display: flex;
+            flex-direction: column;
+
+            .tech-copy {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+    
+                h4 {
+                    color:#38A1F3;
+                    font-family: 'Abel', sans-serif;
+                    font-size: 2rem;
+                }
+            }
+
+
+        }
+}
+
