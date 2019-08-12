@@ -343,25 +343,48 @@
 .seo-body {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  padding-top: 35px;
+  margin-left: 55px;
 }
 .seo-body .seo-organic {
+  display: flex;
   flex-direction: column;
+  text-align: justify;
 }
 .seo-body .seo-organic img {
-  max-width: 45%;
-  padding-top: 20px;
+  max-width: 95%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 2.5px solid #38A1F3;
+  border-radius: 10px;
 }
 .seo-body .seo-organic h3 {
   padding-top: 25px;
+  color: lightcoral;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+.seo-body .seo-organic p {
+  max-width: 90%;
 }
 .seo-body .seo-paid {
+  display: flex;
   flex-direction: column;
+  text-align: justify;
 }
 .seo-body .seo-paid img {
-  max-width: 45%;
-  padding-top: 20px;
+  max-width: 87.5%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 2.5px solid #38A1F3;
+  border-radius: 10px;
 }
 .seo-body .seo-paid h3 {
   padding-top: 25px;
+  color: lightcoral;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+.seo-body .seo-paid p {
+  max-width: 90%;
 }
