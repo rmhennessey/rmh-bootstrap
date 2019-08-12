@@ -340,3 +340,28 @@
   padding: 7px;
   margin: 7px;
 }
+.seo-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.seo-body .seo-organic {
+  flex-direction: column;
+}
+.seo-body .seo-organic img {
+  max-width: 45%;
+  padding-top: 20px;
+}
+.seo-body .seo-organic h3 {
+  padding-top: 25px;
+}
+.seo-body .seo-paid {
+  flex-direction: column;
+}
+.seo-body .seo-paid img {
+  max-width: 45%;
+  padding-top: 20px;
+}
+.seo-body .seo-paid h3 {
+  padding-top: 25px;
+}
