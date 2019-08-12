@@ -11,12 +11,10 @@
 .navbar .fixed-bottom {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
 }
 .navbar .nav-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
 }
 .navbar .nav-container img {
   height: 35px;
@@ -73,6 +71,9 @@
   color: #38A1F3;
   font-family: 'Abel', sans-serif;
   font-size: 3.5rem;
+}
+.larkist .larkist-copy h3 {
+  color: lightcoral;
 }
 .larkist .larkist-copy p {
   max-width: 500px;
@@ -136,6 +137,9 @@
   font-size: 20px;
   padding: 7px;
   margin: 7px;
+}
+.larkist-bottom .larkist-tech .tech-copy .badge-primary {
+  background-color: #38A1F3;
 }
 .larkist-bottom .larkist-tech .tech-copy .badge-backend {
   background-color: lightcoral;
@@ -252,6 +256,19 @@
   flex-direction: column;
   text-align: left;
 }
+.figma .figma-copy h3 {
+  padding: 10px;
+}
+.figma .figma-copy a {
+  color: black;
+}
+.figma .figma-copy .badge-designs {
+  background-color: #38A1F3;
+  color: white;
+  font-size: 20px;
+  padding: 7px;
+  margin: 7px;
+}
 .illustrator {
   display: flex;
   flex-direction: row;
@@ -263,6 +280,19 @@
 .illustrator .illustrator-copy {
   flex-direction: column;
   text-align: left;
+}
+.illustrator .illustrator-copy h3 {
+  padding: 10px;
+}
+.illustrator .illustrator-copy a {
+  color: black;
+}
+.illustrator .illustrator-copy .badge-designs {
+  background-color: #38A1F3;
+  color: white;
+  font-size: 20px;
+  padding: 7px;
+  margin: 7px;
 }
 .photography {
   display: flex;
