@@ -68,6 +68,26 @@
 
 }
 
+.current {
+
+    h2 {
+        font-family: 'Overpass', sans-serif;
+        font-size: 2rem;
+        color: lightcoral;
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    a {
+        color: lightcoral;
+
+        &:hover {
+            color: #38A1F3;
+            text-decoration: none;
+        }
+    }
+}
+
 
 .larkist {
     display: flex;
@@ -258,14 +278,17 @@
             margin: 3px 0;
             color: white; 
             // border: 1px solid #2D404E;
-            background-color: #48B19B;
+            //background-color: #48B19B;
+            background-color:#38A1F3;
             width: 300px;
         }
 
         .badge-alt {
             margin: 3px 0;
-            color: #48B19B; 
-            border: 1px solid #48B19B;
+            //color: #48B19B; 
+            color:#38A1F3;
+            //border: 1px solid #48B19B;
+            border: 1px solid#38A1F3;
             background-color: white;
             width: 300px;
         }
@@ -376,5 +399,21 @@
         .photo-copy {
             flex-direction: column;
             text-align: left;
+
+            h3 {
+                padding: 10px;
+            }
+    
+            a {
+                color: black;
+            }
+    
+            .badge-designs{
+                background-color:#38A1F3;
+                color: white;
+                font-size: 20px;
+                padding: 7px;
+                margin: 7px;
+            }
         }
 }

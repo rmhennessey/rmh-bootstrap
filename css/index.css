@@ -49,6 +49,20 @@
   font-family: 'Overpass', sans-serif;
   font-size: 5rem;
 }
+.current h2 {
+  font-family: 'Overpass', sans-serif;
+  font-size: 2rem;
+  color: lightcoral;
+  padding-top: 60px;
+  text-align: center;
+}
+.current a {
+  color: lightcoral;
+}
+.current a:hover {
+  color: #38A1F3;
+  text-decoration: none;
+}
 .larkist {
   display: flex;
   flex-direction: row;
@@ -211,13 +225,13 @@
 .product-badges .badge-primary {
   margin: 3px 0;
   color: white;
-  background-color: #48B19B;
+  background-color: #38A1F3;
   width: 300px;
 }
 .product-badges .badge-alt {
   margin: 3px 0;
-  color: #48B19B;
-  border: 1px solid #48B19B;
+  color: #38A1F3;
+  border: 1px solid #38A1F3;
   background-color: white;
   width: 300px;
 }
@@ -312,4 +326,17 @@
 .photography .photo-copy {
   flex-direction: column;
   text-align: left;
+}
+.photography .photo-copy h3 {
+  padding: 10px;
+}
+.photography .photo-copy a {
+  color: black;
+}
+.photography .photo-copy .badge-designs {
+  background-color: #38A1F3;
+  color: white;
+  font-size: 20px;
+  padding: 7px;
+  margin: 7px;
 }
