@@ -88,6 +88,12 @@
     margin-bottom: 50px;
   }
 }
+@media (max-width: 992px) {
+  .larkist {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+}
 .larkist img {
   max-height: 500px;
 }
@@ -135,6 +141,11 @@
     flex-direction: column-reverse;
   }
 }
+@media (max-width: 992px) {
+  .larkist-bottom {
+    flex-direction: column-reverse;
+  }
+}
 .larkist-bottom span {
   display: flex;
   flex-direction: column;
@@ -152,6 +163,11 @@
   }
 }
 @media (max-width: 770px) {
+  .larkist-bottom span h4 {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 992px) {
   .larkist-bottom span h4 {
     margin-top: 25px;
   }
@@ -245,6 +261,11 @@
     flex-direction: column;
   }
 }
+@media (max-width: 992px) {
+  .product-info {
+    flex-direction: column;
+  }
+}
 .product-info .product-box {
   flex-direction: column;
 }
@@ -254,6 +275,11 @@
   }
 }
 @media (max-width: 770px) {
+  .product-info .product-box {
+    margin-top: 35px;
+  }
+}
+@media (max-width: 992px) {
   .product-info .product-box {
     margin-top: 35px;
   }
@@ -327,6 +353,11 @@
     flex-direction: column;
   }
 }
+@media (max-width: 992px) {
+  .figma {
+    flex-direction: column;
+  }
+}
 .figma img {
   max-height: 700px;
 }
@@ -349,6 +380,11 @@
     text-align: center;
   }
 }
+@media (max-width: 992px) {
+  .figma .figma-copy {
+    text-align: center;
+  }
+}
 .figma h2 {
   font-family: 'Overpass', sans-serif;
   font-weight: 900;
@@ -360,6 +396,11 @@
   }
 }
 @media (max-width: 770px) {
+  .figma h2 {
+    padding-top: 35px;
+  }
+}
+@media (max-width: 992px) {
   .figma h2 {
     padding-top: 35px;
   }
@@ -403,6 +444,11 @@
     flex-direction: column-reverse;
   }
 }
+@media (max-width: 992px) {
+  .illustrator {
+    flex-direction: column-reverse;
+  }
+}
 .illustrator .illustrator-copy {
   flex-direction: column;
   text-align: left;
@@ -413,6 +459,11 @@
   }
 }
 @media (max-width: 770px) {
+  .illustrator .illustrator-copy {
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
   .illustrator .illustrator-copy {
     text-align: center;
   }
@@ -460,6 +511,11 @@
     flex-direction: column;
   }
 }
+@media (max-width: 992px) {
+  .photography {
+    flex-direction: column;
+  }
+}
 .photography img {
   max-height: 700px;
 }
@@ -478,6 +534,11 @@
   }
 }
 @media (max-width: 770px) {
+  .photography .photo-copy {
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
   .photography .photo-copy {
     text-align: center;
   }
@@ -526,6 +587,12 @@
     margin: auto;
   }
 }
+@media (max-width: 992px) {
+  .seo-body {
+    flex-direction: column;
+    margin: auto;
+  }
+}
 .seo-body .seo-organic {
   display: flex;
   flex-direction: column;
@@ -537,6 +604,11 @@
   }
 }
 @media (max-width: 770px) {
+  .seo-body .seo-organic {
+    flex-direction: column;
+  }
+}
+@media (max-width: 992px) {
   .seo-body .seo-organic {
     flex-direction: column;
   }
@@ -554,6 +626,11 @@
   }
 }
 @media (max-width: 770px) {
+  .seo-body .seo-organic img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 992px) {
   .seo-body .seo-organic img {
     max-width: 100%;
   }
@@ -581,6 +658,11 @@
     margin-left: 15px;
   }
 }
+@media (max-width: 992px) {
+  .seo-body .seo-organic h5 {
+    margin-left: 15px;
+  }
+}
 .seo-body .seo-organic p {
   max-width: 90%;
   font-family: 'Abel', sans-serif;
@@ -592,6 +674,11 @@
   }
 }
 @media (max-width: 770px) {
+  .seo-body .seo-organic p {
+    margin-left: 15px;
+  }
+}
+@media (max-width: 992px) {
   .seo-body .seo-organic p {
     margin-left: 15px;
   }
@@ -611,6 +698,11 @@
     margin-top: 25px;
   }
 }
+@media (max-width: 992px) {
+  .seo-body .seo-paid {
+    margin-top: 25px;
+  }
+}
 .seo-body .seo-paid img {
   max-width: 87.5%;
   padding-top: 15px;
@@ -624,6 +716,11 @@
   }
 }
 @media (max-width: 770px) {
+  .seo-body .seo-paid img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 992px) {
   .seo-body .seo-paid img {
     max-width: 100%;
   }
@@ -651,6 +748,11 @@
     margin-left: 15px;
   }
 }
+@media (max-width: 992px) {
+  .seo-body .seo-paid h5 {
+    margin-left: 15px;
+  }
+}
 .seo-body .seo-paid p {
   max-width: 90%;
   font-family: 'Abel', sans-serif;
@@ -662,6 +764,11 @@
   }
 }
 @media (max-width: 770px) {
+  .seo-body .seo-paid p {
+    margin-left: 15px;
+  }
+}
+@media (max-width: 992px) {
   .seo-body .seo-paid p {
     margin-left: 15px;
   }
