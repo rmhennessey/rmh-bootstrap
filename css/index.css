@@ -189,6 +189,9 @@
   font-weight: 900;
   margin-top: 245px;
 }
+.product h3 {
+  font-size: 75px;
+}
 .product hr {
   background-color: white;
   color: white;
