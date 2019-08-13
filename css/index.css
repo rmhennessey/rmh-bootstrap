@@ -55,6 +55,13 @@
   color: lightcoral;
   padding-top: 60px;
   text-align: center;
+  margin-bottom: 100px;
+}
+@media (max-width: 552px) {
+  .current h2 {
+    margin-bottom: 100px;
+    font-size: 1.5rem;
+  }
 }
 .current a {
   color: lightcoral;
@@ -284,6 +291,11 @@
   margin-top: 50px;
   margin-bottom: 80px;
 }
+@media (max-width: 552px) {
+  .figma {
+    flex-direction: column;
+  }
+}
 .figma img {
   max-height: 700px;
 }
@@ -296,10 +308,20 @@
   flex-direction: column;
   text-align: left;
 }
+@media (max-width: 552px) {
+  .figma .figma-copy {
+    text-align: center;
+  }
+}
 .figma h2 {
   font-family: 'Overpass', sans-serif;
   font-weight: 900;
   color: lightcoral;
+}
+@media (max-width: 552px) {
+  .figma h2 {
+    padding-top: 35px;
+  }
 }
 .figma h3 {
   padding: 10px;
@@ -330,9 +352,19 @@
   margin-bottom: 50px;
   margin-top: 80px;
 }
+@media (max-width: 552px) {
+  .illustrator {
+    flex-direction: column-reverse;
+  }
+}
 .illustrator .illustrator-copy {
   flex-direction: column;
   text-align: left;
+}
+@media (max-width: 552px) {
+  .illustrator .illustrator-copy {
+    text-align: center;
+  }
 }
 .illustrator .illustrator-copy h2 {
   font-family: 'Overpass', sans-serif;
@@ -367,6 +399,11 @@
   align-items: center;
   margin-bottom: 80px;
 }
+@media (max-width: 552px) {
+  .photography {
+    flex-direction: column;
+  }
+}
 .photography img {
   max-height: 700px;
 }
@@ -378,6 +415,11 @@
 .photography .photo-copy {
   flex-direction: column;
   text-align: left;
+}
+@media (max-width: 552px) {
+  .photography .photo-copy {
+    text-align: center;
+  }
 }
 .photography .photo-copy h2 {
   font-family: 'Overpass', sans-serif;
@@ -411,10 +453,21 @@
   padding-top: 35px;
   margin-left: 55px;
 }
+@media (max-width: 552px) {
+  .seo-body {
+    flex-direction: column;
+    margin: auto;
+  }
+}
 .seo-body .seo-organic {
   display: flex;
   flex-direction: column;
   text-align: justify;
+}
+@media (max-width: 552px) {
+  .seo-body .seo-organic {
+    flex-direction: column;
+  }
 }
 .seo-body .seo-organic img {
   max-width: 95%;
@@ -422,6 +475,11 @@
   padding-bottom: 15px;
   border: 2.5px solid #38A1F3;
   border-radius: 10px;
+}
+@media (max-width: 552px) {
+  .seo-body .seo-organic img {
+    max-width: 100%;
+  }
 }
 .seo-body .seo-organic h3 {
   padding-top: 25px;
@@ -436,15 +494,30 @@
   color: lightslategray;
   font-weight: 900;
 }
+@media (max-width: 552px) {
+  .seo-body .seo-organic h5 {
+    margin-left: 15px;
+  }
+}
 .seo-body .seo-organic p {
   max-width: 90%;
   font-family: 'Abel', sans-serif;
   color: lightslategray;
 }
+@media (max-width: 552px) {
+  .seo-body .seo-organic p {
+    margin-left: 15px;
+  }
+}
 .seo-body .seo-paid {
   display: flex;
   flex-direction: column;
   text-align: justify;
+}
+@media (max-width: 552px) {
+  .seo-body .seo-paid {
+    margin-top: 25px;
+  }
 }
 .seo-body .seo-paid img {
   max-width: 87.5%;
@@ -452,6 +525,11 @@
   padding-bottom: 15px;
   border: 2.5px solid #38A1F3;
   border-radius: 10px;
+}
+@media (max-width: 552px) {
+  .seo-body .seo-paid img {
+    max-width: 100%;
+  }
 }
 .seo-body .seo-paid h3 {
   padding-top: 25px;
@@ -466,8 +544,18 @@
   color: lightslategray;
   font-weight: 900;
 }
+@media (max-width: 552px) {
+  .seo-body .seo-paid h5 {
+    margin-left: 15px;
+  }
+}
 .seo-body .seo-paid p {
   max-width: 90%;
   font-family: 'Abel', sans-serif;
   color: lightslategray;
+}
+@media (max-width: 552px) {
+  .seo-body .seo-paid p {
+    margin-left: 15px;
+  }
 }

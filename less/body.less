@@ -75,6 +75,12 @@
         color: lightcoral;
         padding-top: 60px;
         text-align: center;
+        margin-bottom: 100px;
+
+        @media @lg-phone {
+            margin-bottom: 100px;
+            font-size: 1.5rem;
+        }
     }
 
     a {
@@ -347,6 +353,10 @@
     margin-top: 50px;
     margin-bottom: 80px;
 
+    @media @lg-phone {
+        flex-direction: column;
+    }
+
         img {
             max-height: 700px;
 
@@ -358,12 +368,22 @@
         .figma-copy {
             flex-direction: column;
             text-align: left;
+
+            @media @lg-phone {
+                text-align: center;
+            }
         }
+
 
             h2 {
                 font-family: 'Overpass', sans-serif;
                 font-weight: 900;
                 color: lightcoral;
+
+                @media @lg-phone {
+                    padding-top: 35px;
+                    //padding-bottom: 10px;
+                }
             }
 
             h3 {
@@ -401,9 +421,17 @@
     margin-bottom: 50px;
     margin-top: 80px;
 
+    @media @lg-phone {
+        flex-direction: column-reverse;
+    }
+
     .illustrator-copy {
         flex-direction: column;
         text-align: left;
+
+        @media @lg-phone {
+            text-align: center;
+        }
 
         h2 {
             font-family: 'Overpass', sans-serif;
@@ -445,6 +473,10 @@
     align-items: center;
     margin-bottom: 80px;
 
+    @media @lg-phone {
+        flex-direction: column;
+    }
+
         img {
             max-height: 700px;
 
@@ -456,6 +488,10 @@
         .photo-copy {
             flex-direction: column;
             text-align: left;
+
+            @media @lg-phone {
+                text-align: center;
+            }
 
             h2 {
                 font-family: 'Overpass', sans-serif;
@@ -497,11 +533,20 @@
     //justify-content: space-between;
     margin-left: 55px;
 
+    @media @lg-phone {
+        flex-direction: column;
+        margin: auto;
+    }
+
 
     .seo-organic {
         display: flex;
         flex-direction: column;
         text-align: justify;
+
+        @media @lg-phone {
+            flex-direction: column;
+        }
 
         img {
             max-width: 95%;
@@ -510,7 +555,10 @@
             border: 2.5px solid #38A1F3;
             border-radius: 10px;
 
-            
+            @media @lg-phone {
+                max-width: 100%;
+            }
+
         }
     
         h3 {
@@ -527,12 +575,20 @@
             font-family: 'Abel', sans-serif;
             color: lightslategray;
             font-weight: 900;
+
+            @media @lg-phone {
+                margin-left: 15px;
+            }
         }
 
         p {
             max-width: 90%;
             font-family: 'Abel', sans-serif;
             color: lightslategray;
+
+            @media @lg-phone {
+                margin-left: 15px;
+            }
         }
     
     }
@@ -542,12 +598,20 @@
         flex-direction: column;
         text-align: justify;
 
+        @media @lg-phone {
+            margin-top: 25px;
+        }
+
         img {
             max-width: 87.5%;
             padding-top: 15px;
             padding-bottom: 15px;
             border: 2.5px solid #38A1F3;
             border-radius: 10px;
+
+            @media @lg-phone {
+                max-width: 100%;
+            }
         }
     
         h3 {
@@ -564,12 +628,20 @@
             font-family: 'Abel', sans-serif;
             color: lightslategray;
             font-weight: 900;
+
+            @media @lg-phone {
+                margin-left: 15px;
+            }
         }
 
         p {
             max-width: 90%;
             font-family: 'Abel', sans-serif;
             color: lightslategray;
+
+            @media @lg-phone {
+                margin-left: 15px;
+            }
         }
         
     }
