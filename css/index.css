@@ -83,14 +83,19 @@
 }
 .larkist .larkist-copy h2 {
   color: #38A1F3;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Overpass', sans-serif;
   font-size: 3.5rem;
+  font-weight: 900;
 }
 .larkist .larkist-copy h3 {
   color: lightcoral;
+  font-family: 'Abel', sans-serif;
+  font-weight: bolder;
 }
 .larkist .larkist-copy p {
   max-width: 500px;
+  font-family: 'Abel', sans-serif;
+  color: lightslategray;
 }
 .larkist hr {
   background-color: #38A1F3;
@@ -119,6 +124,9 @@
 .larkist-bottom span h4 {
   font-size: 2rem;
   margin-bottom: 25px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 900;
+  color: lightslategray;
 }
 @media (max-width: 552px) {
   .larkist-bottom span h4 {
@@ -151,6 +159,7 @@
   font-size: 20px;
   padding: 7px;
   margin: 7px;
+  font-family: 'Abel', sans-serif;
 }
 .larkist-bottom .larkist-tech .tech-copy .badge-primary {
   background-color: #38A1F3;
@@ -174,9 +183,10 @@
   text-align: left;
 }
 .product h2 {
+  font-family: 'Overpass', sans-serif;
   color: white;
   font-size: 60px;
-  font-weight: 800;
+  font-weight: 900;
   margin-top: 245px;
 }
 .product hr {
@@ -190,7 +200,8 @@
 .product p {
   color: white ;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 900;
+  font-family: 'Overpass', sans-serif;
 }
 .product-info {
   display: flex;
@@ -215,8 +226,15 @@
   height: 50px;
 }
 .product-info .product-box h2 {
-  color: lightslategray;
   margin-top: 8px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 900;
+  color: lightcoral;
+}
+.product-info .product-box p {
+  font-family: 'Abel', sans-serif;
+  font-weight: 900;
+  color: lightslategray;
 }
 .product-badges {
   display: flex;
@@ -227,6 +245,8 @@
   color: white;
   background-color: #38A1F3;
   width: 300px;
+  font-family: 'Abel', sans-serif;
+  font-weight: 900;
 }
 .product-badges .badge-alt {
   margin: 3px 0;
@@ -234,6 +254,8 @@
   border: 1px solid #38A1F3;
   background-color: white;
   width: 300px;
+  font-family: 'Abel', sans-serif;
+  font-weight: 900;
 }
 .design-nav {
   display: flex;
@@ -256,6 +278,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 50px;
   margin-bottom: 80px;
 }
 .figma img {
@@ -270,14 +293,27 @@
   flex-direction: column;
   text-align: left;
 }
-.figma .figma-copy h3 {
+.figma h2 {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 900;
+  color: lightcoral;
+}
+.figma h3 {
   padding: 10px;
+  font-family: 'Abel', sans-serif;
+  font-weight: 900;
 }
-.figma .figma-copy a {
-  color: black;
+.figma a {
+  color: lightslategray;
 }
-.figma .figma-copy .badge-designs {
+.figma a:hover {
+  color: lightcoral;
+  border-bottom: 2px solid lightcoral;
+  text-decoration: none;
+}
+.figma .badge-designs {
   background-color: #38A1F3;
+  font-family: 'Abel', sans-serif;
   color: white;
   font-size: 20px;
   padding: 7px;
@@ -295,14 +331,27 @@
   flex-direction: column;
   text-align: left;
 }
+.illustrator .illustrator-copy h2 {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 900;
+  color: lightcoral;
+}
 .illustrator .illustrator-copy h3 {
   padding: 10px;
+  font-family: 'Abel', sans-serif;
+  font-weight: 900;
 }
 .illustrator .illustrator-copy a {
-  color: black;
+  color: lightslategray;
+}
+.illustrator .illustrator-copy a:hover {
+  color: lightcoral;
+  border-bottom: 2px solid lightcoral;
+  text-decoration: none;
 }
 .illustrator .illustrator-copy .badge-designs {
   background-color: #38A1F3;
+  font-family: 'Abel', sans-serif;
   color: white;
   font-size: 20px;
   padding: 7px;
@@ -327,14 +376,27 @@
   flex-direction: column;
   text-align: left;
 }
+.photography .photo-copy h2 {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 900;
+  color: lightcoral;
+}
 .photography .photo-copy h3 {
   padding: 10px;
+  font-family: 'Abel', sans-serif;
+  font-weight: 900;
 }
 .photography .photo-copy a {
-  color: black;
+  color: lightslategray;
+}
+.photography .photo-copy a:hover {
+  color: lightcoral;
+  border-bottom: 2px solid lightcoral;
+  text-decoration: none;
 }
 .photography .photo-copy .badge-designs {
   background-color: #38A1F3;
+  font-family: 'Abel', sans-serif;
   color: white;
   font-size: 20px;
   padding: 7px;
@@ -360,12 +422,21 @@
 }
 .seo-body .seo-organic h3 {
   padding-top: 25px;
-  color: lightcoral;
+  color: lightslategray;
   padding-bottom: 20px;
-  text-decoration: underline;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+.seo-body .seo-organic h5 {
+  font-family: 'Abel', sans-serif;
+  color: lightslategray;
+  font-weight: 900;
 }
 .seo-body .seo-organic p {
   max-width: 90%;
+  font-family: 'Abel', sans-serif;
+  color: lightslategray;
 }
 .seo-body .seo-paid {
   display: flex;
@@ -381,10 +452,19 @@
 }
 .seo-body .seo-paid h3 {
   padding-top: 25px;
-  color: lightcoral;
+  color: lightslategray;
   padding-bottom: 20px;
-  text-decoration: underline;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+.seo-body .seo-paid h5 {
+  font-family: 'Abel', sans-serif;
+  color: lightslategray;
+  font-weight: 900;
 }
 .seo-body .seo-paid p {
   max-width: 90%;
+  font-family: 'Abel', sans-serif;
+  color: lightslategray;
 }

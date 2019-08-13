@@ -108,16 +108,21 @@
 
                 h2 {
                     color:#38A1F3;
-                    font-family: 'Abel', sans-serif;
+                    font-family: 'Overpass', sans-serif;
                     font-size: 3.5rem;
+                    font-weight: 900;
                 }
 
                 h3 {
                     color: lightcoral;
+                    font-family: 'Abel', sans-serif;
+                    font-weight: bolder;
                 }
 
                 p {
                     max-width: 500px;
+                    font-family: 'Abel', sans-serif;
+                    color: lightslategray;
                 }
 
 
@@ -151,6 +156,9 @@
                 h4 {
                     font-size: 2rem;
                     margin-bottom: 25px;
+                    font-family: 'Overpass', sans-serif;
+                    font-weight: 900;
+                    color: lightslategray;
 
                     @media @lg-phone {
                         margin-top: 25px;
@@ -186,6 +194,7 @@
                     font-size: 20px;
                     padding: 7px;
                     margin: 7px;
+                    font-family: 'Abel', sans-serif;
                 }
 
                 .badge-primary {
@@ -218,9 +227,10 @@
     text-align: left;
 
     h2 {
+        font-family: 'Overpass', sans-serif;
         color:white;
         font-size: 60px;
-        font-weight: 800;
+        font-weight:900;
         margin-top: 245px;
     }
 
@@ -237,7 +247,8 @@
     p {
         color: white ;
         font-size: 25px;
-        font-weight: bold;
+        font-weight: 900;
+        font-family: 'Overpass', sans-serif;
     }
 }
 
@@ -263,8 +274,16 @@
                 } 
 
                 h2 {
-                    color: lightslategray;
                     margin-top: 8px;
+                    font-family: 'Overpass', sans-serif;
+                    font-weight: 900;
+                    color: lightcoral;
+                }
+
+                p {
+                    font-family: 'Abel', sans-serif;
+                    font-weight: 900;
+                    color: lightslategray;
                 }
         }
 }
@@ -280,6 +299,8 @@
             //background-color: #48B19B;
             background-color:#38A1F3;
             width: 300px;
+            font-family: 'Abel', sans-serif;
+            font-weight: 900;
         }
 
         .badge-alt {
@@ -290,6 +311,8 @@
             border: 1px solid#38A1F3;
             background-color: white;
             width: 300px;
+            font-family: 'Abel', sans-serif;
+            font-weight: 900;
         }
 }
 
@@ -317,6 +340,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 50px;
     margin-bottom: 80px;
 
         img {
@@ -330,25 +354,40 @@
         .figma-copy {
             flex-direction: column;
             text-align: left;
+        }
+
+            h2 {
+                font-family: 'Overpass', sans-serif;
+                font-weight: 900;
+                color: lightcoral;
+            }
 
             h3 {
                 padding: 10px;
+                font-family: 'Abel', sans-serif;
+                font-weight: 900;
             }
 
             a {
-                color: black;
+                color: lightslategray;
+
+                &:hover {
+                    color: lightcoral;
+                    border-bottom: 2px solid lightcoral;
+                    text-decoration: none;
+                }
             }
-
-
+            
             .badge-designs{
                 background-color:#38A1F3;
+                font-family: 'Abel', sans-serif;
                 color: white;
                 font-size: 20px;
                 padding: 7px;
                 margin: 7px;
             }
-        }
 }
+
 
 .illustrator {
     display: flex;
@@ -362,16 +401,31 @@
         flex-direction: column;
         text-align: left;
 
+        h2 {
+            font-family: 'Overpass', sans-serif;
+            font-weight: 900;
+            color: lightcoral;
+        }
+
         h3 {
             padding: 10px;
+            font-family: 'Abel', sans-serif;
+            font-weight: 900;
         }
 
         a {
-            color: black;
-        }
+            color: lightslategray;
 
+            &:hover {
+                color: lightcoral;
+                border-bottom: 2px solid lightcoral;
+                text-decoration: none;
+            }
+        }
+        
         .badge-designs{
             background-color:#38A1F3;
+            font-family: 'Abel', sans-serif;
             color: white;
             font-size: 20px;
             padding: 7px;
@@ -399,16 +453,31 @@
             flex-direction: column;
             text-align: left;
 
+            h2 {
+                font-family: 'Overpass', sans-serif;
+                font-weight: 900;
+                color: lightcoral;
+            }
+
             h3 {
                 padding: 10px;
+                font-family: 'Abel', sans-serif;
+                font-weight: 900;
             }
-    
+
             a {
-                color: black;
+                color: lightslategray;
+
+                &:hover {
+                    color: lightcoral;
+                    border-bottom: 2px solid lightcoral;
+                    text-decoration: none;
+                }
             }
-    
+            
             .badge-designs{
                 background-color:#38A1F3;
+                font-family: 'Abel', sans-serif;
                 color: white;
                 font-size: 20px;
                 padding: 7px;
@@ -442,14 +511,25 @@
     
         h3 {
             padding-top: 25px;
-            color: lightcoral;
+            color: lightslategray;
             padding-bottom: 20px;
-            text-decoration: underline;
+            //text-decoration: underline;
+            font-family: 'Overpass', sans-serif;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        h5 {
+            font-family: 'Abel', sans-serif;
+            color: lightslategray;
+            font-weight: 900;
         }
 
         p {
-             max-width: 90%;
-         }
+            max-width: 90%;
+            font-family: 'Abel', sans-serif;
+            color: lightslategray;
+        }
     
     }
     
@@ -468,13 +548,24 @@
     
         h3 {
             padding-top: 25px;
-            color: lightcoral;
+            color: lightslategray;
             padding-bottom: 20px;
-            text-decoration: underline;
+            //text-decoration: underline;
+            font-family: 'Overpass', sans-serif;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        h5 {
+            font-family: 'Abel', sans-serif;
+            color: lightslategray;
+            font-weight: 900;
         }
 
         p {
             max-width: 90%;
+            font-family: 'Abel', sans-serif;
+            color: lightslategray;
         }
         
     }
